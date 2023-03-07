@@ -111,7 +111,6 @@ body{
 .back p{
     padding: 10px;
     font-weight: 900;
-    /* color: #3E6213; */
 }
 
 a{
@@ -122,6 +121,6 @@ a{
     background-color: #3E6213;
     color: white;
     border: 2px solid white;
-    transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out; 
     text-align: center;
 }
