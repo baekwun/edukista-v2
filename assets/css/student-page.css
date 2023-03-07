@@ -103,13 +103,25 @@ body{
     height: 40px;
     width: 100px;
     background-color: white;
+    color: #3E6213;
     border-radius: 50px;
     text-align: center;
 }
 
-.back p,a{
+.back p{
     padding: 10px;
     font-weight: 900;
-    color: #3E6213;
+    /* color: #3E6213; */
+}
+
+a{
     text-decoration: none;
+}
+
+.back:hover{
+    background-color: #3E6213;
+    color: white;
+    border: 2px solid white;
+    transition: 300ms ease-in-out;
+    text-align: center;
 }
