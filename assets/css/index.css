@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html { 
+    font-family: sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/assets/img/upang-background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.header-container{
+    padding: 0 0rem;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    max-width: inherit;
+    min-height: 100px;
+    margin: 0 auto;
+    background: white;
+    border-bottom: 2px solid #3E6213;
+    position: sticky;
+    top: 0;
+}
+
+#div1 img{
+    width: 100px;
+}
+
+#div2{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.block{
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.block p{
+    padding: 10px;
+    font-weight: 900;
+    color: #3E6213;
+}
+
+.box{
+    max-width: fit-content;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+.card{
+    background-color: white;
+    width: 150px;
+    height: 260px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.3);
+    transition: all 300ms ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.section{
+    font-size: small;
+    padding: -50px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+    width: 150px;
+    height: 260px;
+}
+
+.card-image img{
+    width: 120px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.user-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .user-container {
+      grid-template-columns: 1fr 1fr !important;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .user-container {
+      grid-template-columns: 1fr 1fr !important;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .user-container {
+      grid-template-columns: 1fr 1fr !important;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .user-container {
+      grid-template-columns: 1fr !important;
+    }
+  }

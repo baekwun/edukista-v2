@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html { 
+    font-family: sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/assets/img/upang-background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.header-container{
+    padding: 0 0rem;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    max-width: inherit;
+    min-height: 100px;
+    margin: 0 auto;
+    background: white;
+    border-bottom: 2px solid #3E6213;
+    position: sticky;
+    top: 0;
+}
+
+#div1 img{
+    width: 100px;
+}
+
+#div2{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.box{
+    width: fit-content;
+    background: white;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+.pdf{
+    width: 750px;
+    height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .pdf {
+      width: max-content !important;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .pdf {
+        width: max-content !important;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .pdf {
+        width: max-content !important;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .pdf {
+        width: max-content !important;
+    }
+  }
+
+.back{
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.back p,a{
+    padding: 10px;
+    font-weight: 900;
+    color: #3E6213;
+    text-decoration: none;
+}
