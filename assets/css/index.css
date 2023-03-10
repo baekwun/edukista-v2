@@ -150,3 +150,55 @@ a{
       transform: rotateX(0);
     }
   }
+
+  footer{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    /* font-family: 'Open Sans'; */
+    padding-top: 40px;
+}
+
+.footer-content{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: capitalize;
+    opacity: 0.4;
+    font-weight: 400;
+}
