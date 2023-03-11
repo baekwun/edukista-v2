@@ -58,32 +58,72 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .pdf {
-      width: max-content !important;
-    }
+  .pdf{
+    width: 200px;
+  }
+  .box{
+    max-width: fit-content;
+  }
+  }
+ 
+  @media screen and (max-width: 425px) {
+    .pdf{
+      width: 380px;
+  }
+  .box{
+    max-width: fit-content;
+  }
+  }
+
+  @media screen and (max-width: 412px) {
+    .pdf{
+      width: 280px;
+  }
+  .box{
+    max-width: fit-content;
+  }
   }
   
-  @media screen and (max-width: 425px) {
-    .pdf {
-        width: max-content !important;
-    }
+
+  @media screen and (max-width: 390px) {
+    .pdf{
+      width: 280px;
+  }
+  .box{
+    max-width: fit-content;
+  }
   }
   
   @media screen and (max-width: 375px) {
-    .pdf {
-        width: max-content !important;
-    }
+    .pdf{
+      width: 345px;
   }
-  
-  @media screen and (max-width: 320px) {
-    .pdf {
-        width: max-content !important;
-    }
+  .box{
+    max-width: fit-content;
+  }
   }
 
-  .pdf-holder{
-    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.45);
+  /* @media screen and (max-height: 812px) {
+    .pdf{
+      width: 28px;
   }
+  .box{
+    max-width: fit-content;
+  }
+  } */
+  
+  @media screen and (max-width: 320px) {
+    .pdf{
+      width: 230px;
+  }
+  .box{
+    max-width: fit-content;
+  }
+  }
+
+  /* .pdf-holder{
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.45);
+  } */
 
   .container{
     animation: transitionIn 0.75s;
