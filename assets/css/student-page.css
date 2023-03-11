@@ -21,17 +21,17 @@ body{
 }
 
 .header-container{
-    padding: 0 0rem;
-    display: flex;
-    justify-content: center;
-    width: inherit;
-    max-width: inherit;
-    min-height: 100px;
-    margin: 0 auto;
-    background: white;
-    border-bottom: 2px solid #3E6213;
-    position: sticky;
-    top: 0;
+  padding: 0 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: inherit;
+  max-width: inherit;
+  min-height: 100px;
+  margin: 0 auto;
+  background: white;
+  border-bottom: 2px solid #3E6213;
+  position: sticky;
+  top: 0;
 }
 
 #div1 img{
