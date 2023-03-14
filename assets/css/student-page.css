@@ -103,6 +103,17 @@ body{
   }
   }
 
+  @media screen and (max-width: 375px) {
+    .header-container{
+      display: none;
+    }
+    footer{
+      display: none;
+    }
+  }
+
+
+
   /* @media screen and (max-height: 812px) {
     .pdf{
       width: 28px;
